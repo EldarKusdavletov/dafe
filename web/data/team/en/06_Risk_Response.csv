@@ -1,0 +1,4 @@
+"Triage ID","Risk Level","Examples","Recommended System Action","Validation Status","Caution"
+"T01","Emergency","Severe shortness of breath, chest pain, altered consciousness, fainting, or face/tongue swelling with breathing difficulty","Stop routine check-in and advise immediate emergency care","MVP example; clinical validation required","Not a diagnostic algorithm"
+"T02","Prompt consultation","Markedly reduced urine output, persistent vomiting/diarrhea with suspected dehydration, worsening dizziness or swelling","Advise prompt consultation with a healthcare professional and record symptoms","MVP example; clinical validation required","Urgency varies by clinical condition"
+"T03","Monitor and consult","Mild fatigue, transient stomach discomfort, minor sleep disturbance","Record and monitor trends; advise consultation if persistent or worsening","MVP example; clinical validation required","Check for accompanying high-risk symptoms"

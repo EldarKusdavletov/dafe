@@ -1,0 +1,131 @@
+{
+  "_source": "Script lines follow Hajin's morning script (team Doc). Other A-questions come from the assessment sheet tab 03 (data/team/*/03_*.csv); triage lines follow tab 06 'Recommended System Action'. After-visit lines follow Hajin's after-visit script (softened: doctor only, no stop/skip order).",
+  "reminder": {
+    "en": "Good {greeting}, {name}! It's time for your {slot} medicine.",
+    "ko": "{name}, 좋은 {greeting}이에요! {slot} 약 드실 시간이에요."
+  },
+  "A01": {
+    "en": "Please tell me when you've taken it.",
+    "ko": "약 드시고 나면 저한테 말씀해 주세요."
+  },
+  "reminder2": {
+    "en": "Just a reminder: it's time for your {slot} medicine. Did you take it?",
+    "ko": "다시 알려드려요. {slot} 약 드셨어요?"
+  },
+  "taken_ack": {
+    "en": "Okay, I'll mark your {slot} medicine as taken.",
+    "ko": "네, {slot} 약 드신 걸로 적어둘게요."
+  },
+  "A03": {
+    "en": "Is there a reason you couldn't take it? For example, you forgot, it felt uncomfortable, or you ran out.",
+    "ko": "약을 못 드신 이유가 있나요? 잊으셨거나, 불편하셨거나, 약이 떨어졌나요?"
+  },
+  "A04": {
+    "en": "How are you feeling today? Is anything bothering you?",
+    "ko": "오늘은 몸이 좀 어떠세요? 불편한 곳은 없으세요?"
+  },
+  "A05": {
+    "en": "I see. Did you feel it before taking your medicine?",
+    "ko": "그러셨군요. 약 드시기 전부터 그랬나요?"
+  },
+  "close_ok": {
+    "en": "Thank you. I've noted it. Have a good day.",
+    "ko": "감사합니다. 기록했어요. 좋은 하루 보내세요."
+  },
+  "close_t03": {
+    "en": "Got it. I'll write that down. Please sit and rest for now, and call your doctor if it continues.",
+    "ko": "알겠어요. 적어둘게요. 우선 앉아서 쉬시고, 계속되면 병원에 연락해 보세요."
+  },
+  "close_flag": {
+    "en": "I've recorded this and I'll let your doctor know. Please contact your doctor soon about it.",
+    "ko": "기록했어요. 의사 선생님께 알려드릴게요. 빨리 병원에 연락해 보세요."
+  },
+  "close_caregiver": {
+    "en": "Noted. I'll let your caregiver know.",
+    "ko": "기록했어요. 보호자께 알려드릴게요."
+  },
+  "new_med_review": {
+    "en": "Your new medicine is being reviewed by your doctor together with your other medicines. They will contact you.",
+    "ko": "새로 받으신 약을 의사 선생님이 다른 약들과 함께 확인하고 계세요. 곧 연락드릴 거예요."
+  },
+  "T01": {
+    "en": "This could be an emergency. Please call 119 now. I'm alerting your family and doctor.",
+    "ko": "응급 상황일 수 있어요. 지금 119에 전화하세요. 가족과 의사 선생님께 알릴게요."
+  },
+  "not_understood": {
+    "en": "Sorry, I didn't catch that. Could you say it again?",
+    "ko": "죄송해요, 잘 못 들었어요. 다시 말씀해 주시겠어요?"
+  },
+  "slot": {
+    "morning": {
+      "en": "morning",
+      "ko": "아침"
+    },
+    "evening": {
+      "en": "evening",
+      "ko": "저녁"
+    }
+  },
+  "greeting": {
+    "morning": {
+      "en": "morning",
+      "ko": "아침"
+    },
+    "evening": {
+      "en": "evening",
+      "ko": "저녁"
+    }
+  },
+  "missed_forgot": {
+    "en": "That's okay. I've noted it, and I'll remind you at the next time.",
+    "ko": "괜찮아요. 적어두고 다음 시간에 다시 알려드릴게요."
+  },
+  "missed_discomfort": {
+    "en": "I've noted that the medicine felt uncomfortable. I'll let your doctor know.",
+    "ko": "약이 불편하셨다고 적어둘게요. 의사 선생님께 알려드릴게요."
+  },
+  "missed_other": {
+    "en": "Okay, I've noted it.",
+    "ko": "네, 적어둘게요."
+  },
+  "report_sent": {
+    "en": "I'll send your doctor a report of your medicines and how you've been feeling before the visit.",
+    "ko": "진료 전에 복용 중인 약과 그동안의 상태를 정리해서 의사 선생님께 보내 드릴게요."
+  },
+  "rx_photo_ask": {
+    "en": "Could you take a photo of the prescription so I can check it?",
+    "ko": "확인할 수 있게 처방전 사진을 찍어 주시겠어요?"
+  },
+  "rx_found": {
+    "en": "I found a medicine called {drug}. Is that the name on your prescription?",
+    "ko": "{drug}라는 약을 찾았어요. 처방전에 있는 이름이 맞나요?"
+  },
+  "rx_unreadable": {
+    "en": "Sorry, I couldn't read the prescription. Could you take the photo again, a little closer?",
+    "ko": "죄송해요, 처방전을 읽지 못했어요. 조금 더 가까이에서 다시 찍어 주시겠어요?"
+  },
+  "rx_retry": {
+    "en": "Okay. Could you take the photo again?",
+    "ko": "네. 사진을 다시 찍어 주시겠어요?"
+  },
+  "rx_risk": {
+    "en": "{drug} may affect kidney function, especially in people with chronic kidney disease like you.",
+    "ko": "{drug}은(는) 만성 콩팥병이 있는 분의 콩팥 기능에 영향을 줄 수 있어요."
+  },
+  "rx_review": {
+    "en": "{drug} may not suit your other medicines.",
+    "ko": "{drug}이(가) 다른 약과 맞지 않을 수 있어요."
+  },
+  "rx_ok": {
+    "en": "Thank you. I've added {drug} to your medicine list.",
+    "ko": "감사합니다. {drug}을(를) 약 목록에 추가했어요."
+  },
+  "rx_advice": {
+    "en": "Please check with your doctor before taking the new medicine. I'll help you share your medication list and kidney condition with your doctor.",
+    "ko": "새 약을 드시기 전에 의사 선생님과 꼭 확인해 주세요. 복용 중인 약 목록과 콩팥 상태를 의사 선생님께 공유해 드릴게요."
+  },
+  "ask_doctor": {
+    "en": "I can't tell you to stop or change a medicine. Please check with your doctor first. I'll let your doctor know you asked.",
+    "ko": "약을 끊거나 바꾸라고 말씀드릴 수는 없어요. 먼저 의사 선생님과 확인해 주세요. 물어보셨다고 의사 선생님께 알려드릴게요."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "_source": "Local rules not yet in the team's sheet. Drug-drug rules come from data/team/en/05_Drug_Class_Assessment.csv.",
+  "egfrRules": [
+    { "id": "metformin-egfr45", "ingredient": "metformin", "egfrBelow": 45,
+      "message": "Metformin with eGFR < 45: dose review", "source": "Placeholder, awaiting eGFR cut-offs from the clinical team" }
+  ],
+  "thresholds": { "sbpBelow": 100, "sbpAbove": 160, "weightGainKg3d": 2 }
+}

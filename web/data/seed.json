@@ -1,0 +1,31 @@
+{
+  "_source": "Persona: Hajin's Mrs. Kim, 78 (team Doc, Yonsei tab). Drugs, departments and latest labs: patient A, data/team-inputs/virtual_patient_A.md (Dohyeon). eGFR points before 2026-10-12 and the 14-day BP/weight history are invented for the trend charts.",
+  "patient": {
+    "name": "Mrs. Kim (virtual)",
+    "callName": { "en": "Mrs. Kim", "ko": "할머니" },
+    "age": 78,
+    "sex": "F",
+    "home": "Lives alone in Ulsan; daughter in Seoul",
+    "diagnoses": ["CKD G3b", "Type 2 diabetes", "Hypertension", "Osteoarthritis", "Dyslipidemia"],
+    "creatinine": 1.8,
+    "egfr": [
+      { "date": "2026-01-12", "value": 45 },
+      { "date": "2026-04-13", "value": 42 },
+      { "date": "2026-07-13", "value": 40 },
+      { "date": "2026-10-12", "value": 38 }
+    ],
+    "potassium": [{ "date": "2026-10-12", "value": 4.7 }]
+  },
+  "meds": [
+    { "id": "m1", "ingredient": "losartan", "dose": "50 mg", "slots": ["morning"], "clinic": "Nephrology", "instructions": "08:00" },
+    { "id": "m2", "ingredient": "amlodipine", "dose": "5 mg", "slots": ["morning"], "clinic": "Nephrology", "instructions": "08:00" },
+    { "id": "m3", "ingredient": "furosemide", "dose": "20 mg", "slots": ["morning"], "clinic": "Nephrology", "instructions": "08:00" },
+    { "id": "m4", "ingredient": "dapagliflozin", "dose": "10 mg", "slots": ["morning"], "clinic": "Nephrology", "instructions": "08:00" },
+    { "id": "m5", "ingredient": "metformin", "dose": "500 mg", "slots": ["morning", "evening"], "clinic": "Endocrinology", "instructions": "After breakfast and dinner" },
+    { "id": "m6", "ingredient": "linagliptin", "dose": "5 mg", "slots": ["morning"], "clinic": "Endocrinology", "instructions": "08:00" },
+    { "id": "m7", "ingredient": "atorvastatin", "dose": "20 mg", "slots": ["evening"], "clinic": "Endocrinology", "instructions": "20:00" },
+    { "id": "m8", "ingredient": "amlodipine", "dose": "5 mg", "slots": ["evening"], "clinic": "Endocrinology", "instructions": "20:00" },
+    { "id": "m9", "ingredient": "ibuprofen", "dose": "400 mg", "slots": ["morning", "evening"], "clinic": "Orthopedics", "instructions": "After breakfast and dinner" },
+    { "id": "m10", "ingredient": "acetaminophen", "dose": "500 mg", "slots": [], "clinic": "Orthopedics", "instructions": "As needed for pain" }
+  ]
+}
